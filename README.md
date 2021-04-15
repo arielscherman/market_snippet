@@ -18,7 +18,7 @@ For example: Bitcoin and Ethereum prices are provided by the same endpoint, so i
 
 ### Glossary
 
-**Rate**: Since there are some currencies that can be measured against different useful values, the Rate defines the association two currencies (ex: 'btc_in_usd'). Each rate has many Values.
+**Rate**: Since there are some currencies that can be measured against different useful values, the Rate defines the association between two currencies (ex: 'btc_in_usd'). Each rate has many __Values__ (price, date).
 
 ### Questions?
 
