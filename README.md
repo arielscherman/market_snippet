@@ -11,7 +11,7 @@ It is mostly useful for countries like Argentina (where I live currently) with w
 ### Market class
 
 This class is used by a daily job to get the prices of all **rates**, so then we can calculate how much each wallet is worth (and therefore show users how much they won/lost).
-The Market knows how the get the current price of each rate, and some pricing sources provide the price of more than one rate.
+The Market knows how to get the current price of each rate, and some pricing sources provide the price of more than one rate in the same payload.
 Because of that, the Market is smart enough to know whether we need to trigger a new HTTP request or not.
 
 For example: Bitcoin and Ethereum prices are provided by the same endpoint, so if we first fetch Bitcoin's price, there is no need to trigger another HTTP call for Ethereum since we already have the payload we need.
